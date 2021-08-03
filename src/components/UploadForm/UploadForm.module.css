@@ -1,0 +1,28 @@
+.uploadBtn {
+  background: coral;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.uploadBtn input {
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.formWrapper {
+  margin-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.output {
+  margin-top: 1rem;
+}
+
+.output > span {
+  margin: 1rem 0;
+}
